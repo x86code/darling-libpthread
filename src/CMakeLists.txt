@@ -40,6 +40,7 @@ set(pthread_common_sources
 	pthread_asm.S
 )
 set(pthread_sources
+	simcompat.c
 	${pthread_common_sources}
 	variants/pthread_cancelable_cancel.c
 )
